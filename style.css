@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Hurricane&family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Hurricane&family=Josefin+Sans:wght@100;300&family=Oswald:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* index.html css starts here */
+.sidebar{
+    font-family: 'Oswald', sans-serif;
+    /* width: 300px; */
+    background-color: rgb(159, 184, 184);
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+    position: absolute;
+}
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 33px 0;
+}
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+.main{
+    /* display: flex; */
+    width: 90vw;
+    padding: 10px;
+    /* background-color: aqua; */
+}
+.container{
+    display: flex;
+}
+.info-container{
+    margin:70px auto;
+    /* background-color: yellow; */
+    height: 58vh;
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hello{
+    font-size: 40px;
+}
+.name{
+    font-weight: bold;
+    font-size: 50px;
+}
+.about{
+    font-size:30px ;
+}
+.button{
+    margin-top: 20px;
+}
+.btn{
+    padding: 9px;
+    border-radius: 16px;
+    color: white;
+    background: black; 
+    font-weight: bold;   
+    cursor: pointer; 
+}
+.btn a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.btn:hover{
+    background-color: grey;
+    /* color: blue; */
+}
+.devpic img{
+        height: 58vh ;
+ }
+ .moreabout{
+     margin: 20px 0 0 0;
+     font-size: 20px;
+ }
+/* index.html csss ends here */
+
+
+/* contact.html csss starts here */
+.contactform{
+    margin-left: 75px;
+    padding-top: 64px;
+    font-family: 'Oswald', sans-serif;
+}
+.contactform h1{
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    /* text-align: center; */
+    padding:12px 0;
+}
+.contactform form div{
+    display: flex;
+    flex-direction: column;
+    padding:10px 0;
+}
+.contactform form div input{
+    width: 30vw;
+}
+#emailhelp{
+    width:25vw;
+    padding: 10px;
+}
+#clientphone{
+    width: 20vw;
+}
+#enquiry input{
+    height: 61px;
+    width: 30vw;
+}
+#check{
+    flex-direction: row;
+}
+#check input{
+    width: 15px;
+    margin: 0 10px;
+}
+
+/* contact.html csss ends here */
+
+
+
+/* blog.html csss starts here */
+.blogcontainer{
+    margin: 5px 75px; 
+    padding: 15px;
+}
+.blogcontainer h1{
+    font-family: 'Oswald', sans-serif;
+}
+.blogitem{
+    margin: 2px;
+    padding: 15px;
+}
+.blogitem h2{
+    margin: 12px 0;
+    padding: 2px;
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+.blogitem p{
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+    /* font-family: 'Hurricane', cursive; */
+    /* font-family: 'Fredoka', sans-serif; */
+    /* font-family: 'Oswald', sans-serif; */
+}
+/* blog.html csss ends here */
+
+
+
+
+/* INTRO.html csss starts  here */
+.aboutme{
+    flex-direction: coloumn;
+}
+.box1{
+    background-color: red;
+    height: 3px;
+    width: 270px;
+}
+.box2{
+    background-color:brown;
+    height: 3px;
+    width: 270px;
+}
+.box3{
+    background-color:blueviolet;
+    height: 3px;
+    width: 200px;
+}
+.box4{
+    background-color:crimson;
+    height: 3px;
+    width: 150px;
+}
+.box5{
+    background-color:darkorange;
+    height: 3px;
+    width: 270px;
+}
+.box6{
+    background-color:gold;
+    height: 3px;
+    width: 200px;
+}
+
+
+/* INTRO.html csss ends here */
+
+
+
+
+/* Services.html csss starts here */
+.services{
+    padding: 10px;
+     margin: 13px;
+     margin-top: 162px;
+     font-family: 'Oswald', sans-serif;
+ }
+ .services h2{
+ text-align: center;
+ /* font-size: 10px; */
+ }
+ .service-box{
+     display: flex;
+ }
+.service1{
+    margin: 50px;
+    margin-left: 223px;
+    /* justify-content: center; */
+    height: 200px;
+    width: 200px;
+    overflow:visible;
+    /* background-color: red; */
+    /* background: url(service1.png); */
+}
+.service1 img{
+    /* margin: 50px; */
+    height: 200px;
+    width: 200px;
+    /* background-color: rgb(179, 162, 162); */
+    transition: transform 1s ease;
+}
+.service1 img:hover{
+    /* margin-right: 10px; */
+    /* height: 350px; */
+    /* width: 350px; */
+    transform: scale(1.5);
+    
+    /* background-color: rgb(179, 162, 162); */
+}
+/* services.html csss ends here */
+
+
+
+
+/* hamburger.html csss starts here */
+.hamburger{
+    display: flex;
+    left: 10px;
+    position: absolute;
+    cursor: pointer;
+
+}
+.cross{
+    
+    margin: -8px 111px;
+}
+.sidebarGo{
+    transform: translate(-305px ,1px);
+    position: absolute;
+}
+/* hamburger.html csss ends here */
+
+
+
+/* mediaquery.html csss starts here */
+@media (max-width:850px){
+    .devpic {
+        display: none;
+    }
+    .service-box{
+        margin-left: -155px;
+        /* flex-direction: column; */
+        /* position: relative; */
+        flex-wrap: wrap;
+    }
+    .main{
+        margin-left:12px
+    }
+   
+    /* .sidebar{
+        transform: translate(-305px ,1px);
+        position: absolute;
+    } */
+}
+/* media query.html csss ends here */
+
+
+
